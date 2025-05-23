@@ -1,0 +1,149 @@
+h1 {
+    color: red;
+}
+
+img {
+    object-fit: cover;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    position: sticky;
+    top: 0;
+    z-index: 2;
+}
+
+/* .navbar{
+
+} */
+
+.nav_size{
+    height: 50px;
+}
+
+.nav_img_logo{
+    height: 100%;
+    width: 70px;
+}
+
+.nav_img_logo img{
+    height: 100%;
+    width: 100%;
+}
+
+
+.conteiner_img_principal {
+    height: calc(100vh - 66px);
+    width: 100%;
+    /* margin-bottom: 50px; */
+}
+
+.conteiner_img_principal img {
+    height: 100%;
+    width: 100%;
+}
+
+
+.conteiner_cards {
+    display: flex;
+    flex-direction: column;
+    /* Organiza las secciones en columna */
+    /* justify-content: center; */
+    align-items: center;
+    /* Centra horizontalmente */
+    margin: 30px;
+    height: 100%;
+}
+
+.conteiner_card {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 40px;
+}
+
+.conteiner_card h2{
+    position: absolute;
+    top: 40px;
+}
+
+.conteiner_imagen img {
+    padding: 10px 10px;
+}
+
+.conteiner_imagen {
+    position: relative;
+    width: 48%;
+    height: 500px;
+  }
+
+.Boton_Info{
+    font-size: 20px;
+    background-color: black;
+    color: aliceblue;
+    position: absolute;
+    right: 40px;
+    bottom: 40px;
+}
+
+
+.conteiner_card div {
+    display: flex;
+    justify-content: center;
+    /* Centra horizontalmente dentro del div */
+    align-items: center;
+    /* Centra verticalmente dentro del div */
+}
+
+
+
+
+
+.conteiner_beneficios {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: rgba(217, 217, 217, 0.488);
+    height: 350px;
+    padding: 20px 0 ;
+    margin: 40px 0;
+}
+
+.conteiner_beneficio {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding: 10px;
+    height: 100%;
+    width: 33%;
+}
+
+.conteiner_beneficio_img {
+    width: 100px;
+    height: 100px;
+}
+
+.conteiner_beneficio_img img{
+    width: 100px;
+    height: 100px;
+    overflow: hidden; /* Asegura que la imagen no se desborde */
+}
+
+
+.titulo_beneficio {
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+.texto_beneficio{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+}
+
